@@ -1,0 +1,263 @@
+/* fonts start */
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+ */
+      url("../fonts/roboto-v30-latin-regular.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-italic.woff2") format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+ */
+      url("../fonts/roboto-v30-latin-italic.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/roboto-v30-latin-500.woff2") format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+ */
+      url("../fonts/roboto-v30-latin-500.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-500italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/roboto-v30-latin-500italic.woff2") format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+ */
+      url("../fonts/roboto-v30-latin-500italic.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v30-latin-700.woff2") format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+ */
+      url("../fonts/roboto-v30-latin-700.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* fonts end */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #eeeeee;
+  margin-top: 87px;
+}
+a,
+a:active {
+  text-decoration: none;
+  color: #ffffff;
+}
+/*header starts*/
+.header {
+  top: 0;
+  width: 100%;
+  background-color: #007765;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header_line {
+  width: 1219px;
+  padding: 20px 55px 20px 55px;
+  display: flex;
+  justify-content: space-between;
+}
+.header_img {
+  width: 184px;
+  height: 45px;
+  background-size: cover;
+  background-position: center center;
+  padding-right: 20px;
+}
+.header_concole {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 24px;
+  padding-left: 20px;
+}
+.pipe {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+/*header ends*/
+
+/*main starts*/
+.main_header {
+  background-image: url(img/SVG/image.svg);
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+}
+.main_header_text {
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 160px 55px 160px 55px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 72px;
+}
+
+.main_b1 {
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 48px 54px 92px 55px;
+}
+.main_b1_title {
+  color: #007765;
+  font-weight: 500;
+  font-size: 64px;
+  padding-bottom: 16px;
+  text-align: center;
+}
+.main_b1_text {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37.5px;
+}
+
+.main_b2 {
+  background-image: url(img/SVG/image1.svg);
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+}
+.main_b2_text {
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 126px 160px 126px 160px;
+  color: #ffffff;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+}
+
+.main_b3 {
+  background-color: white;
+}
+.main_b3_title {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+  padding: 48px 54px 0 55px;
+}
+.main_b3_callout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 70px 40px 55px;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main_b3_callout_pic {
+  width: 115px;
+  height: 115px;
+}
+.main_b3_callout_text {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  padding-left: 48px;
+}
+.main_b3_text {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  padding: 0 54px 92px 55px;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main_b4_title {
+  color: #007765;
+  font-weight: 500;
+  font-size: 64px;
+  padding: 48px 54px 32px 55px;
+  text-align: center;
+}
+.main_b4_cards {
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 54px 94px 55px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.card {
+  width: 350px;
+  height: 282px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.member_img {
+  width: 168px;
+  height: 168px;
+}
+.name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #007765;
+  padding-top: 10px;
+}
+.post {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  font-style: italic;
+}
+/*main ends*/
+
+/*footer starts*/
+.footer {
+  background: #333333;
+}
+.footer_text {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  padding: 48px 55px 64px 55px;
+}
+/*footer ends*/
