@@ -130,6 +130,8 @@ a:active {
   margin-left: auto;
   margin-right: auto;
   padding: 48px 54px 92px 55px;
+  padding-top: 135px;
+  margin-top: -87px;
 }
 .main_b1_title {
   color: #007765;
@@ -165,6 +167,10 @@ a:active {
 
 .main_b3 {
   background-color: white;
+  padding-top: 87px;
+  margin-top: -87px;
+  -webkit-background-clip: content-box;
+  background-clip: content-box;
 }
 .main_b3_title {
   font-weight: 500;
@@ -203,6 +209,10 @@ a:active {
   margin-right: auto;
 }
 
+.main_b4 {
+  padding-top: 87px;
+  margin-top: -87px;
+}
 .main_b4_title {
   color: #007765;
   font-weight: 500;
