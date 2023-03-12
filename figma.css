@@ -227,6 +227,7 @@ a:active {
   padding: 0 54px 94px 55px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .card {
   width: 350px;
